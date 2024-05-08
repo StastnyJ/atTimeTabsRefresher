@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Auto Tab Refresher",
+  "version": "1.0",
+  "permissions": [
+    "tabs", "alarms"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.webp"
+  },
+  "icons": {
+    "48": "icon.webp",
+    "128": "icon.webp"
+  }
+}

@@ -1,7 +1,7 @@
 // Create an alarm to wake up 1 minute before the desired time
 
-const desiredHours = 19;
-const desiredMinutes = 53;
+const desiredHours = 17;
+const desiredMinutes = 0;
 const desiredSeconds = 0;
 
 chrome.alarms.create("prepareRefresh", { when: calculateNextAlarmTime() });
